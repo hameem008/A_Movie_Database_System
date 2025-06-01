@@ -1,0 +1,9 @@
+Toy Story,1995,Animation,Comedy,Family,81,Pixar Animation Studios,30000000,373554033
+Jumanji,1995,Adventure,Fantasy,Family,104,TriStar Pictures,65000000,262797249
+Heat,1995,Action,Crime,Drama,170,Regency Enterprises,60000000,187436818
+Se7en,1995,Crime,Mystery,Thriller,127,New Line Cinema,33000000,327311859
+The Usual Suspects,1995,Drama,Crime,Thriller,106,Blue Parrot Productions,6000000,23341568
+Mighty Aphrodite,1995,Comedy,Romance,,95,Miramax Films,15000000,6700000
+From Dusk Till Dawn,1996,Horror,Action,Thriller,108,A Band Apart,19000000,25836616
+Braveheart,1995,Action,Drama,History,177,Icon Entertainment International,72000000,210000000
+Apollo 13,1995,Drama,,,140,Imagine Entertainment,52000000,355237933

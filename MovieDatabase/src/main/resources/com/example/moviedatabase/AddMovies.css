@@ -1,0 +1,18 @@
+.background{
+    -fx-background-image: url("addmovies.jpg")
+}
+.add{
+    -fx-background-color: #848482;
+}
+.add:hover{
+    -fx-background-color: #a52a2a;
+}
+.back{
+    -fx-background-color: #848482;
+}
+.back:hover{
+    -fx-background-color: #a52a2a;
+}
+.text{
+    -fx-background-color: #f5f5dc;
+}

@@ -1,0 +1,9 @@
+.background{
+    -fx-background-image: url("main.jpg");
+}
+.loginbutton{
+    -fx-background-color: #848482;
+}
+.loginbutton:hover{
+    -fx-background-color: #a52a2a;
+}

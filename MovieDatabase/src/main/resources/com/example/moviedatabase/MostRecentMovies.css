@@ -1,0 +1,35 @@
+.background{
+    -fx-background-image: url("aca.jpg");
+}
+.back{
+    -fx-background-color: #848482;
+}
+.back:hover{
+    -fx-background-color: #a52a2a;
+}
+.table-view .column-header-background{
+    -fx-background-color: #ffffed;
+    -fx-background-insets:0 0 0 0;
+    /*-fx-effect: dropshadow(two-pass-box, rgb(10,101,107),15,0.0,0.1,3)*/
+}
+.table-view .column-header, .table-view .filler{
+    -fx-background-color: transparent;
+    -fx-size : 30;
+    -fx-border-width: 1;
+    -fx-border-color: #534b4f;
+}
+.table-row-cell:odd{
+    -fx-background-color : linear-gradient(to top,#654321,#0f0f0f,#654321);
+    -fx-text-fill : black ;
+}
+.table-row-cell:even{
+    -fx-background-color : linear-gradient(to top,#002147,#0f0f0f,#002147);
+    -fx-text-color : white ;
+}
+.table-view .cell{
+  -fx-alignment: center;
+  /*-fx-background-color:linear-gradient(#1f1c1c,#594948,#1f1c1c);*/   /*edi cell color  -fx-border-color:#575757; ;  -fx-border-size:0.5; -fx-border-size:0.5; -fx-alignment: CENTER_LEFT;*/
+  -fx-border-size:10;
+  -fx-text-fill: white;
+  -fx-alignment: CENTER;
+ }

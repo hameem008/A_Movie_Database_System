@@ -1,0 +1,9 @@
+.background{
+    -fx-background-image: url("ttt.jpg");
+}
+.back{
+    -fx-background-color: #848482;
+}
+.back:hover{
+    -fx-background-color: #a52a2a;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="background" stylesheets="@AllMovies.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.moviedatabase.AllMovies">
+   <children>
+      <Button layoutX="40.0" layoutY="30.0" mnemonicParsing="false" onAction="#clickOnBack" styleClass="back" stylesheets="@AllMovies.css" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Light BT" size="20.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="67.0" layoutY="146.0" prefHeight="430.0" prefWidth="782.0" stylesheets="@AllMovies.css">
+         <columns>
+            <TableColumn fx:id="MovieName" prefWidth="89.5999984741211" text="Movie Name" />
+            <TableColumn fx:id="ReleaseYear" minWidth="0.0" prefWidth="108.79998779296875" text="Release Year" />
+            <TableColumn fx:id="Genre1" prefWidth="75.0" text="Genre 1" />
+            <TableColumn fx:id="Genre2" prefWidth="75.0" text="Genre 2" />
+            <TableColumn fx:id="Genre3" prefWidth="75.0" text="Genre 3" />
+            <TableColumn fx:id="RunningTime" minWidth="0.0" prefWidth="115.20010375976562" text="Running Time" />
+            <TableColumn fx:id="Budget" prefWidth="127.99993896484375" text="Budget" />
+            <TableColumn fx:id="Revenue" prefWidth="115.1998291015625" text="Revenue" />
+         </columns>
+      </TableView>
+      <Label fx:id="CompanyName" alignment="CENTER" layoutX="128.0" layoutY="64.0" prefHeight="40.0" prefWidth="660.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Light BT" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="109.0" text="All Movies" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Light BT" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
